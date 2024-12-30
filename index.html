@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <center>
+        <div>
+            <marquee><h2 style="font-size:28px">Check Whether the given Number is Even or Odd</h2></marquee>
+            <label>Enter the Number:</label>
+            <input type="tel" id="inp" onkeypress="return /[0-9]/i.test(event.key)">
+            <br>
+            <br>
+            <button onclick="CheckNum()">Check</button>
+            <h2 id="result"></h2>
+        </div>
+    </center>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
